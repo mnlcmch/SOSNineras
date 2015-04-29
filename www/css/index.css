@@ -1,0 +1,26 @@
+#margen{
+	margin: 3%;
+}
+
+#misionModal{
+  text-align: justify;;
+}
+
+#visionModal{
+  text-align: justify;;
+}
+
+#historiaModal{
+  text-align: justify;;
+}
+
+#ubicacionModal{
+  text-align: justify;;
+}
+
+#videoCuarto {
+    width: 100% !important;
+    height: auto !important;
+}
+
+

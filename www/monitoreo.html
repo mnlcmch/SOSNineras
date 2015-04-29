@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Agencia</title>
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="stylesheet" type="text/css" href="Semantic/semantic.min.css">
+</head>
+<!--_________________________________________________-->
+<body>
+  <div class="ui top attached demo menu">
+    <a id="botonMenu" class="item">
+      <i class="sidebar icon"></i>
+      Menu
+    </a>
+  </div>
+
+  <div class="ui bottom attached segment">
+    <div id="sideBar" class="ui left vertical purple inverted labeled icon sidebar menu">
+    <a href="quienes.html" id="botonQuienes" class="item">
+    <i class="child icon"></i>
+    ¿Quiénes somos?
+    </a>
+    <a href="contactanos.html" id="botonContactanos" class="item">
+    <i class="call icon"></i>
+    Contáctanos
+    </a>
+    <a href="arma.html" id="botonArma" class="item">
+    <i class="smile icon"></i>
+    Arma tu paquete
+    </a>
+    <a href="monitoreo.html" id="botonMonitoreo" class="item">
+    <i class="photo icon"></i>
+    Monitoreo
+    </a>
+    <a href="registro.html" id="botonRegistro" class="item">
+    <i class="plus icon"></i>
+    Registro
+    </a>
+    <div class="ui mini purple label">
+    <br><br>Powered by <br>
+    AnySol. Tech.
+    </div>
+    </div>
+
+    <div class="pusher">
+
+    <h2 class="ui center aligned header">
+    <img src="img/icons/sofia.png" class="ui circular small image"><br>
+    Sofia <br>
+    <div id="botonReportar" class="ui teal button">Reportar actividad</div>
+    </h2>
+    
+    <div class="ui one column grid">
+
+    <div class="column">
+    <div class="ui segment center aligned tertiary pink inverted">
+        <h1>Cuarto</h1>
+        <video id="videoCuarto" autoplay="autoplay">
+        <source src="img/vid/cuartovid.mp4" type="video/mp4"/>
+        </video>
+    </div>
+    </div>
+
+    <div class="column">
+      <div class="ui segment center aligned tertiary pink inverted">
+      <h1>Cocina</h1>
+        <div id="videoCocina" class="ui video" data-source="youtube" data-id="" data-image="img/icons/cocina.jpg"></div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="ui segment center aligned tertiary pink inverted">
+      <h1>Sala</h1>
+        <div id="videoSala" class="ui video" data-source="youtube" data-id="" data-image="img/icons/sala.jpeg"></div>
+      </div>
+    </div>
+
+    </div>
+  
+  </div>
+
+<div id="reportarModal" class="ui modal">
+  <div class="header">
+    ¡Has reportado una actividad!
+  </div>
+  <div class="content">
+    <div class="image">
+    <i class="warning circle red icon"></i>
+    </div>
+    <div class="description">
+      <div class="ui header">Lamentamos cualquier inconvenencia.</div>
+      En breve el equipo de <b>S.O.S. Niñeras</b> se comunicará contigo y con la niñera.
+    </div>
+  </div>
+  <div class="actions">
+    <div class="ui purple right button">
+      Aceptar
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+</body>
+<!--_________________________________________________-->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script type="text/javascript" src="Semantic/semantic.min.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+</html>
